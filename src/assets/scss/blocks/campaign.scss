@@ -1,0 +1,50 @@
+.campaign{
+    margin: 0 10% 109px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    padding-bottom: 45px;
+    @include breakpoint ($tablet-bp) {
+        justify-content: space-evenly;
+    }
+    @include breakpoint ($phone-bp) {
+       margin: 0 50%;
+    }
+}
+.campaign__item{
+    display: flex;
+    flex-direction: column;
+    max-width: 258px;
+        &:not(:last-child){
+            margin-right: 35px;
+            @include breakpoint ($tablet-bp) {
+                margin-right: 0px;
+                margin-bottom: 40px;
+            }
+        }
+
+}
+.campaign__icon{
+    margin-bottom: 25px;
+    text-align: center;
+    img{
+     max-width: 260px;   
+    }
+   
+}
+.campaign__title{
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $blue;
+    margin-bottom: 20px;
+}
+.campaign__txt{
+    p{
+        font-size: 15px;
+        text-align: center;   
+        line-height: 24px;
+        color: $primary;
+        opacity: .7;   
+    }
+}

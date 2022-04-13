@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Open+Sans:wght@400;500;600;700&display=swap');
+@import "_vars";
+@import "mixin";
+@import "vendor/reset";
+
+
+.wrapper{
+    background: url(../images/body.png) center/cover no-repeat fixed;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Blocks */
+@import "blocks/header";
+@import "blocks/creative";
+@import "blocks/agency";
+@import "blocks/features";
+@import "blocks/extentions";
+@import "blocks/blog";
+@import "blocks/campaign";
+@import "blocks/note";
+@import "blocks/services";
+@import "blocks/team";
+@import "blocks/member";
+@import "blocks/feedback";
+@import "blocks/footer";
+@import "blocks/burger";
+

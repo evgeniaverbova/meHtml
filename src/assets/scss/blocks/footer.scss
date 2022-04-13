@@ -1,0 +1,16 @@
+footer{
+    background-color: $primary;
+    width: 100%;
+    padding: 45px 0 25px 0;
+}
+.foot__inner{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.foot__descr{
+        p{
+            color: $white;
+            padding-top: 10px;
+        }
+}

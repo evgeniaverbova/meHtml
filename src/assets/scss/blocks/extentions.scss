@@ -1,0 +1,75 @@
+.extent__date{
+    font-size: 13px;
+    span{
+        margin: 0 7px;
+    }
+}
+
+.extent__title{
+    margin: 20px 0 30px 0;
+    font-size: 25px;
+}
+.extent__txt{
+    font-size: 15px;
+    line-height: 24px;
+    p:first-child{
+        margin-bottom: 15px;
+    }
+}
+.row1{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #222222;
+    justify-content: center;
+    @include breakpoint ($tablet-bp) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.item{
+    width: 50%;
+    overflow: hidden;
+        &--pic{
+            display: block;
+            width: 50%;
+            height: 460px;
+            background: url(/assets/images/extent/extent1.png) center/cover no-repeat ;
+        }
+        &--pic_1{
+            background: url(/assets/images/extent/extent2.png) center/cover no-repeat ;
+            display: block;
+            width: 50%;
+            height: 460px;
+        }
+        @include breakpoint ($tablet-bp) {
+            width: 100%;   
+           }
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 15% 20% 1% 20% ;
+    max-width: 847px;
+        &--white{
+            color: $white;
+        }
+        @include breakpoint ($tablet-bp) {
+            padding: 5%;
+        }
+}
+.row2{
+    display: flex;
+    justify-content: center;
+    background-color: #f3f3f3;
+    @include breakpoint ($tablet-bp) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.extent{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ width: 100%;
+}

@@ -1,0 +1,17 @@
+.header__burger{
+    display: none;
+    @include breakpoint ($phone-bp) {
+        display: block;
+        position: relative;
+        width: 34px;
+        height: 23px;
+        &:before{
+            content: '';
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            height: 2px;
+            background-color: $white;
+        }
+    }
+}

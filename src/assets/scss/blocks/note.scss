@@ -1,0 +1,39 @@
+.note{
+    background-color: $blue;
+    display: flex;
+    padding: 150px;
+    justify-content: center;
+    @include breakpoint ($tablet-bp) {
+        flex-wrap: wrap;
+        padding: 100px 50px;
+    }
+}
+.note__inner{
+    display: flex;
+    &:first-child{
+        margin-right: 70px;
+        @include breakpoint ($tablet-bp) {
+            margin-right: 0;
+        }
+    }
+    @include breakpoint ($tablet-bp) {
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+        justify-content: center;
+    }
+}
+.note__text{
+   max-width: 450px;
+   color: $white;
+   line-height: 24px;
+   font-size: 15px;
+   font-weight: 400;
+   font-family: 'Nanum Gothic', sans-serif;
+}
+.note__img{
+    align-self: center;
+    margin-right: 35px;
+    @include breakpoint ($phone-bp) {
+        margin-bottom: 25px;
+    }
+}

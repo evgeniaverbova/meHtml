@@ -1,0 +1,38 @@
+.members{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    margin-bottom: 55px;
+    padding: 0 5%;
+}
+.member__img{
+    width: 100%;
+    img{
+        max-width: 260px;
+    }
+
+}
+.member__info{
+    max-width: 216px;
+    display: block;
+    text-align: center;
+    padding: 23px 0 40px 0 ;
+    position: relative;
+    left: 10%;
+    background-color: $white;
+    box-shadow: 5px 5px 5px $primary;
+    bottom: 50px;
+}
+.member__name{
+    text-transform: uppercase;
+    color: $blue;
+    font-size: 20px;
+}
+.member__job{
+    margin-top: 13px;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+}

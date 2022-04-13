@@ -1,0 +1,78 @@
+.services{
+    background: url(/assets/images/service.png) center/cover no-repeat fixed;
+    color: $white;
+    font-weight: 400;
+    font-family: 'Nanum Gothic', sans-serif;
+    height: auto;
+}
+.services__inner{
+    display: flex;
+    justify-content: center;
+    @include breakpoint ($tablet-bp) {
+        flex-wrap: wrap;
+    }
+}
+.service__left{
+    padding-top: 240px;
+    margin: 0 255px 240px 100px ;   
+    @include breakpoint ($tablet-bp) {
+        margin: 50px auto;
+        padding-top: 100px;
+        padding: 0 10px;
+    }  
+}
+.service__left-cont{
+    margin-bottom: 70px;
+}
+.service__left-title{
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+.service__left-txt{
+    font-size: 15px;
+    line-height: 24px;
+    text-align: left;
+    max-width: 470px;
+}
+.service__left-ul{
+    li{
+        background-color: $blue;
+        margin-bottom: 24px;
+        text-align: left;
+        padding: 13px 0 13px 19px;
+        font-size: 15px;
+        transition: .2s linear;
+        &:hover{
+          background-color: darken($blue, 15%);
+        }
+    }
+}
+.ul__li-1{
+    max-width: 370px;
+    &:hover{
+        max-width: 410px;
+    }
+}
+.ul__li-2{
+    max-width: 400px;
+    &:hover{
+        max-width: 440px;
+    }
+}
+.ul__li-3{
+    max-width: 425px;
+    &:hover{
+        max-width: 465px;
+    }
+}
+.service__right{
+    margin-top: 130px;
+    margin-right: 100px;
+        img{
+            max-width: 270px;
+            max-height: 600px;
+        }
+        @include breakpoint ($tablet-bp) {
+        margin: 50px 50%;
+        }
+}

@@ -1,0 +1,64 @@
+.creative{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+}
+.creative__title{
+    color: #f5f5f5;
+    font-family: 'Open Sans', sans-serif;;
+    text-transform: uppercase;
+    font-size: 153px;
+    font-weight: 700;
+    letter-spacing: -1.92px;
+    margin-bottom: 36px;
+    @include breakpoint ($phone-bp) {
+        font-size: 50px;
+    }
+}
+.creative__subtitle{
+    font-family: 'Nanum Gothic', sans-serif;
+    color: $blue;
+    text-transform: uppercase;
+    letter-spacing: 7.88px;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 118px;
+    @include breakpoint ($phone-bp) {
+    font-size: 12px;
+    text-align: center;
+    }
+}
+.creative__circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 65px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+.creative__circle-text{
+    color: $white;
+    font-weight: 400;
+    font-family: "Open Sans";
+    font-size: 13px;
+    margin-bottom: 22px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
