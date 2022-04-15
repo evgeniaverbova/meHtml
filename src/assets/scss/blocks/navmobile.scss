@@ -1,0 +1,32 @@
+.nav__mobile{
+    display: none;
+    margin-top: 20px;
+    margin-left: 25px;
+    @include breakpoint ($phone-bp) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+.nav-ul__mobile{
+    li{
+        padding: 7px 10px 0 0;
+        line-height: 1.2;
+        a{
+            padding-right: 60px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            font-size: 17px;
+            color: #d1cece;
+            text-decoration: none;
+                &:hover{
+                    border-right:  $blue 6px solid;
+                }
+        }
+    }
+}
+.social-ul_mobile{
+    display: flex;
+        li{
+            margin-right: 10px;
+        }
+}

@@ -4,6 +4,9 @@
     justify-content: center;
     align-items: center;
     min-height: 700px;
+    @include breakpoint ($phone-bp) {
+        min-height: 500px;
+    }
 }
 .creative__title{
     color: #f5f5f5;
@@ -14,7 +17,7 @@
     letter-spacing: -1.92px;
     margin-bottom: 36px;
     @include breakpoint ($phone-bp) {
-        font-size: 50px;
+        font-size: 40px;
     }
 }
 .creative__subtitle{

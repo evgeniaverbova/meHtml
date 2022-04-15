@@ -1,17 +1,35 @@
 .header__burger{
     display: none;
     @include breakpoint ($phone-bp) {
-        display: block;
-        position: relative;
-        width: 34px;
-        height: 23px;
-        &:before{
+            display: block;
+            position: relative;
+            width: 45px;
+            height: 30px;
+            align-self: center;
+            margin-left: 25px;
+            &::before{
+                content: '';
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 3px;
+                background-color: $white;
+            }
+    
+        &::after{
             content: '';
             position: absolute;
-            top: 50%;
+            bottom: 0;
             width: 100%;
-            height: 2px;
+            height: 3px;
             background-color: $white;
         }
-    }
+            span{
+                position: absolute;
+                width: 100%;
+                height: 3px;
+                background-color: $white;
+                top: 13px;
+            }
+    } 
 }
