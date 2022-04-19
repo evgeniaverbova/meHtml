@@ -11,30 +11,25 @@
 }
 .creative__title{
     color: #f5f5f5;
-    font-family: 'Gotham';
+    font-family: 'GothamBold';
     text-transform: uppercase;
     font-size: 153px;
-    font-weight: 700;
-    letter-spacing: -1.92px;
+    font-weight: normal;
+    letter-spacing: -10px;
     // margin-bottom: 36px;
-    margin-bottom: 18px;
+    margin-bottom: 7px;
     @include breakpoint ($phone-bp) {
         font-size: 40px;
     }
 }
 .creative__subtitle{
-    font-family: 'Gotham';
+    font-family: 'GothamMedium';
     color: $blue;
     text-transform: uppercase;
-    font-weight: 400;
-    font-size: 12px;
-    width: 405px;
-    // margin-bottom: 118px;
-    letter-spacing: 7.94px;
-    @include breakpoint ($phone-bp) {
-    font-size: 12px;
+    font-size: 23px;
+    letter-spacing: 18px;
     text-align: center;
-    }
+    margin-bottom: 110px;
 }
 .creative__circle{
     display: flex;
@@ -51,7 +46,7 @@
     font-weight: 400;
     font-family: "Open Sans";
     font-size: 13px;
-    margin-bottom: 22px ;
+    margin-bottom: 25px ;
 }
 
 

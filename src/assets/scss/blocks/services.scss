@@ -25,10 +25,12 @@
     margin-bottom: 70px;
 }
 .service__left-title{
+    font-family: 'GothamMedium';
     font-size: 25px;
     padding-bottom: 40px;
 }
 .service__left-txt{
+    font-family: 'Gotham-Book';
     font-size: 15px;
     line-height: 24px;
     text-align: left;
@@ -36,6 +38,7 @@
 }
 .service__left-ul{
     li{
+        font-family: 'GothamMedium';
         background-color: $blue;
         margin-bottom: 24px;
         text-align: left;

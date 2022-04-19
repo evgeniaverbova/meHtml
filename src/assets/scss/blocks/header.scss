@@ -4,7 +4,7 @@ header{
     left: 0;
     width: 100%;
     z-index: 50;
-    margin-bottom:200px;
+    margin-bottom: 137px;
 }
 .header__inner{
     display: flex;
@@ -32,13 +32,14 @@ header{
     }
 }
 .header__nav-ul{
-  margin-right: 100px;
-  padding-top: 16px;
+    font-family: 'MyriadPro-Regular';
+    margin-right: 100px;
+    padding-top: 16px;
   @include breakpoint ($tablet-bp) {
       margin-right: 50px;
   }
     li{
-        padding: 7px 10px 20px;
+        padding: 18px 10px 20px;
         line-height: 1.2;
         a{
             padding-bottom: 23px;
@@ -56,6 +57,7 @@ header{
 .header__social-ul{
     li{
         padding-right: 22px;
+        padding-top: 12px;
         @include breakpoint ($tablet-bp) {
             padding: 10px;
         }

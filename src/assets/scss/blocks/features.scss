@@ -1,7 +1,7 @@
 .features{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     padding-bottom: 100px;
 }
 .feature__item{
@@ -10,7 +10,6 @@
     max-width: 258px;
     flex-wrap: wrap;
     color: $white;
-    margin-right: 40px;
     margin-bottom: 30px;
     align-items: center;
     @include breakpoint ($phone-bp) {
@@ -31,11 +30,12 @@
 .feature__title{
     text-align: center;
     font-size: 18px;
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'GothamMedium';
     text-transform: uppercase;
     margin-bottom: 25px;
 }
 .feature__txt{
+    font-family: 'Gotham-Book';
     font-size: 15px;
     line-height: 24px;
     text-align: center;

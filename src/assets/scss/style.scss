@@ -1,58 +1,46 @@
-@font-face {
-    font-family: 'Gotham';
-    src: url('../fonts/Gotham-Bold.eot');
-    src: url('../fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Gotham-Bold.woff2') format('woff2'),
-         url('../fonts/Gotham-Bold.woff') format('woff'),
-         url('../fonts/Gotham-Bold.ttf')  format('truetype'),
-         url('../fonts/Gotham-Bold.svg#Gotham') format('svg');
-         font-style: normal;
-         font-weight: 700;
-}
-@font-face {
-    font-family: 'Gotham';
-    src: url('../fonts/Gotham-Medium3.eot');
-    src: url('../fonts/Gotham-Medium3.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Gotham-Medium3.woff2') format('woff2'),
-         url('../fonts/Gotham-Medium3.woff') format('woff'),
-         url('../fonts/Gotham-Medium3.ttf')  format('truetype'),
-         url('../fonts/Gotham-Medium3.svg#Gotham') format('svg');
-         font-style: normal;
-         font-weight: 500;
-}
-@font-face {
-    font-family: 'GothamBook';
-    src: url('../fonts/GothamBook.eot');
-    src: url('../fonts/GothamBook.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/GothamBook.woff2') format('woff2'),
-         url('../fonts/GothamBook.woff') format('woff'),
-         url('../fonts/GothamBook.ttf')  format('truetype'),
-         url('../fonts/GothamBook.svg#GothamBook') format('svg');
-         font-style: normal;
-         font-weight: normal;
-}
-@font-face {
-    font-family: 'Myriad Pro';
-    src: url('../fonts/MyriadPro-Regular.eot');
-    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
-         url('../fonts/MyriadPro-Regular.woff') format('woff'),
-         url('../fonts/MyriadPro-Regular.ttf')  format('truetype'),
-         url('../fonts/MyriadPro-Regular.svg#Myriad Pro') format('svg');
-         font-style: normal;
-         font-weight: normal;
-}
-@font-face {
-    font-family: 'Gotham';
-    src: url('../fonts/gotham-bold.eot');
-    src: url('../fonts/gotham-bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/gotham-bold.woff2') format('woff2'),
-         url('../fonts/gotham-bold.woff') format('woff'),
-         url('../fonts/gotham-bold.ttf')  format('truetype'),
-         url('../fonts/gotham-bold.svg#Gotham') format('svg');
-         font-style: normal;
-         font-weight: 700;
-}
+ @font-face {
+    font-family: 'GothamBold';
+    src: url('../fonts/GothamBold.svg#GothamBold') format('svg'),
+         url('../fonts/GothamBold.ttf') format('truetype'),
+         url('../fonts/GothamBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'GothamMedium';
+    src: url('../fonts/GothamMedium.svg#GothamMedium') format('svg'),
+         url('../fonts/GothamMedium.ttf') format('truetype'),
+         url('../fonts/GothamMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Gotham-Book';
+    src: url('../fonts/Gotham-Book.eot');
+    src: url('../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gotham-Book.svg#Gotham-Book') format('svg'),
+         url('../fonts/Gotham-Book.ttf') format('truetype'),
+         url('../fonts/Gotham-Book.woff') format('woff'),
+         url('../fonts/Gotham-Book.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/Roboto-Regular.svg#Roboto-Regular') format('svg'),
+         url('../fonts/Roboto-Regular.ttf') format('truetype'),
+         url('../fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'MyriadPro-Regular';
+    src: url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg'),
+         url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
+         url('../fonts/MyriadPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
 @import "_vars";
 @import "mixin";
 @import "vendor/reset";

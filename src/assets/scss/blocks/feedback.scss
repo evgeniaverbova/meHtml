@@ -16,6 +16,7 @@
     font-weight: 400;
 }
 .feedback__title{
+    font-family: 'GothamMedium';
     position: relative;
     display: flex;
     justify-content: center;
@@ -26,6 +27,7 @@
     color: $white;
 }
 .feedback_logo{
+    font-family: 'Roboto-Regular';
     position: absolute;
     font-size: 247px;
     font-weight: 700;
@@ -79,7 +81,7 @@
             color: $white;
             opacity: 65%;
             font-size: 15px;
-            font-family: 'Nanum Gothic', sans-serif;
+            font-family: 'Gotham-Book';
         }
         @include breakpoint ($phone-bp) {
             width: 50%;
@@ -97,7 +99,7 @@
 }
 .form__btn{
     border: none;
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'GothamMedium';
     display: block;
     width: 230px;
     height: 65px;

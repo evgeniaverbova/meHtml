@@ -15,6 +15,7 @@
 
 }
 .member__info{
+    font-family: 'GothamMedium';
     max-width: 216px;
     display: block;
     text-align: center;
@@ -22,7 +23,7 @@
     position: relative;
     left: 10%;
     background-color: $white;
-    box-shadow: 5px 5px 5px $primary;
+    // box-shadow: 5px 5px 5px $primary;
     bottom: 50px;
 }
 .member__name{
