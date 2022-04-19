@@ -3,31 +3,34 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 700px;
+    // min-height: 700px;
+    // margin: 137px 0 18px 0;
     @include breakpoint ($phone-bp) {
         min-height: 500px;
     }
 }
 .creative__title{
     color: #f5f5f5;
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Gotham';
     text-transform: uppercase;
     font-size: 153px;
     font-weight: 700;
     letter-spacing: -1.92px;
-    margin-bottom: 36px;
+    // margin-bottom: 36px;
+    margin-bottom: 18px;
     @include breakpoint ($phone-bp) {
         font-size: 40px;
     }
 }
 .creative__subtitle{
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Gotham';
     color: $blue;
     text-transform: uppercase;
-    letter-spacing: 7.88px;
     font-weight: 400;
-    font-size: 25px;
-    margin-bottom: 118px;
+    font-size: 12px;
+    width: 405px;
+    // margin-bottom: 118px;
+    letter-spacing: 7.94px;
     @include breakpoint ($phone-bp) {
     font-size: 12px;
     text-align: center;
@@ -41,6 +44,7 @@
     height: 65px;
     border: 1px solid #ffffff;
     border-radius: 50%;
+    margin-bottom: 50px;
 }
 .creative__circle-text{
     color: $white;
