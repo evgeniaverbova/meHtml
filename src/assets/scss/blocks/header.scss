@@ -12,8 +12,12 @@ header{
     padding: 0 10%;
     align-items: center;
     @include breakpoint ($phone-bp) {
-        max-height: 60px;
+        max-height: 90px;
         flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    @include breakpoint ($medium-bp) {
+        padding: 0 3%;
     }
 }   
 .header__img{
@@ -24,37 +28,41 @@ header{
             width: 79px;
             height: 75px ;
         }
-    @include breakpoint ($tablet-bp) {
-        margin-right: 19px;
+    @include breakpoint ($medium-bp) {
+        margin-right: 5% ;
         margin-left: 20px;
     }
 }
 .header__nav-ul{
     font-family: 'MyriadPro-Regular';
-    margin-right: 40px;
     padding-top: 16px;
-  @include breakpoint ($tablet-bp) {
-      margin-right: 50px;
-  }
     li{
         padding: 18px 0 20px;
         line-height: 1.2;
-        &:not(:last-child){
-            margin-right: 45px;
+        margin-right: 45px;
+            @include breakpoint ($medium-bp) {
+                margin-right: 25px;
+            }
+            @include breakpoint ($phone-bp) {
+                line-height: 0.5;
+                padding: 10px 0;
+            }
         }
         a{
             padding-bottom: 35px;
             font-family: 'Myriad Pro';
-            font-weight: normal;
             font-size: 20px;
             color: #d1cece;
             text-decoration: none;
+            @include breakpoint ($phone-bp) {
+                padding-bottom: 10px;
+            }
                 &:hover{
                     border-bottom: $blue 6px solid;
                 }
         }
-    }
 }
+
 .header__social-ul{
     li{
         padding-right: 22px;
@@ -62,15 +70,44 @@ header{
         @include breakpoint ($tablet-bp) {
             padding: 10px;
         }
+        @include breakpoint ($phone-bp) {
+        padding-bottom: 5px;
     }
+ }
 }
+
 
 
 .header__social-ul,
 .header__nav-ul{
-    display: flex;
-    // padding: 33px 0;
+    display: flex;  
     @include breakpoint ($phone-bp) {
-        display: none;
+        &--mobile{
+            background-color: rgba($white, .25);
+            width: 100%;
+        }
+    }  
+}
+.header__social-ul{
+    @include breakpoint ($phone-bp) {
+        &--mobile{
+        position: absolute;
+        top: 295px;
+        left:0 ;
+        justify-content: center;
+        }
+    }
+}
+.header__nav-ul{
+    @include breakpoint ($phone-bp) {
+        &--mobile{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        text-align: center;
+        top: 90px;
+        left:0;
+        color: $primary;
+        }
     }
 }

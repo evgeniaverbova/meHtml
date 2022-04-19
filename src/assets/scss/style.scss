@@ -1,50 +1,5 @@
-@font-face {
-    font-family: 'Gotham-Bold';
-    src: url('../fonts/Gotham-Bold.eot');
-    src: url('../fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Gotham-Bold.svg#Gotham-Bold') format('svg'),
-         url('../fonts/Gotham-Bold.ttf') format('truetype'),
-         url('../fonts/Gotham-Bold.woff') format('woff'),
-         url('../fonts/Gotham-Bold.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }  
-  @font-face {
-    font-family: 'GothamMedium';
-    src: url('../fonts/GothamMedium.svg#GothamMedium') format('svg'),
-         url('../fonts/GothamMedium.ttf') format('truetype'),
-         url('../fonts/GothamMedium.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'Gotham-Book';
-    src: url('../fonts/Gotham-Book.eot');
-    src: url('../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Gotham-Book.svg#Gotham-Book') format('svg'),
-         url('../fonts/Gotham-Book.ttf') format('truetype'),
-         url('../fonts/Gotham-Book.woff') format('woff'),
-         url('../fonts/Gotham-Book.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'Roboto-Regular';
-    src: url('../fonts/Roboto-Regular.svg#Roboto-Regular') format('svg'),
-         url('../fonts/Roboto-Regular.ttf') format('truetype'),
-         url('../fonts/Roboto-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'MyriadPro-Regular';
-    src: url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg'),
-         url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
-         url('../fonts/MyriadPro-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
 @import "_vars";
+@import "fonts";
 @import "mixin";
 @import "vendor/reset";
 
@@ -74,5 +29,4 @@ body{
 @import "blocks/feedback";
 @import "blocks/footer";
 @import "blocks/burger";
-@import "blocks/navmobile";
 
