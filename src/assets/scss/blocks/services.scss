@@ -14,7 +14,7 @@
 }
 .service__left{
     padding-top: 240px;
-    margin: 0 255px 240px 100px ;   
+    margin: 0 255px 240px 140px ;   
     @include breakpoint ($tablet-bp) {
         margin: 50px auto;
         padding-top: 100px;
@@ -27,7 +27,8 @@
 .service__left-title{
     font-family: 'GothamMedium';
     font-size: 25px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
 }
 .service__left-txt{
     font-family: 'Gotham-Book';
@@ -38,6 +39,7 @@
 }
 .service__left-ul{
     li{
+        text-transform: uppercase;
         font-family: 'GothamMedium';
         background-color: $blue;
         margin-bottom: 24px;
@@ -51,29 +53,33 @@
     }
 }
 .ul__li-1{
-    max-width: 370px;
+    max-width: 350px;
     &:hover{
         max-width: 410px;
     }
 }
 .ul__li-2{
-    max-width: 400px;
+    max-width: 380px;
     &:hover{
         max-width: 440px;
     }
 }
 .ul__li-3{
-    max-width: 425px;
+    max-width: 410px;
     &:hover{
         max-width: 465px;
     }
 }
 .service__right{
-    margin-top: 130px;
+    margin-top: 110px;
     margin-right: 100px;
         img{
-            max-width: 270px;
-            max-height: 600px;
+            max-width: 390px;
+            max-height: 650px;
+            @include breakpoint ($tablet-bp) {
+                max-width: 300px;
+                max-height: 600px;
+            }
         }
         @include breakpoint ($tablet-bp) {
         margin: 50px 50%;

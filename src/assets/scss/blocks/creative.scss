@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // min-height: 700px;
+    // height: 700px;
     // margin: 137px 0 18px 0;
     @include breakpoint ($phone-bp) {
         min-height: 500px;
