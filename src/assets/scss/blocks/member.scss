@@ -2,8 +2,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    font-family: 'Nanum Gothic', sans-serif;
-    font-weight: 400;
     margin-bottom: 55px;
     padding: 0 5%;
 }
@@ -15,7 +13,6 @@
 
 }
 .member__info{
-    font-family: 'GothamMedium';
     max-width: 216px;
     display: block;
     text-align: center;
@@ -26,13 +23,14 @@
     bottom: 50px;
 }
 .member__name{
+    font-family: 'GothamMedium';
     text-transform: uppercase;
     color: $blue;
     font-size: 20px;
 }
 .member__job{
+    font-family: 'Gotham-Bold';
     margin-top: 13px;
     color: black;
-    font-weight: 700;
     text-align: center;
 }

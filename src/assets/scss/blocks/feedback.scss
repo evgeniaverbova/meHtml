@@ -1,10 +1,7 @@
 .feedback{
     background: url(/assets/images/feedback.png) center/cover no-repeat fixed;
-    width: 100%;
-    height: auto;
     padding-bottom: 100px;
     color: $white;
-
 }
 .feedback__header{
     display: flex;
@@ -12,8 +9,7 @@
     justify-content: center;
     text-align: center;
     margin-bottom: 76px;
-    font-family: 'Nanum Gothic', sans-serif;
-    font-weight: 400;
+    font-family: 'GothamMedium';
 }
 .feedback__title{
     font-family: 'GothamMedium';
@@ -30,16 +26,14 @@
     font-family: 'Roboto-Regular';
     position: absolute;
     font-size: 247px;
-    font-weight: 700;
     text-transform: uppercase;
     opacity: 15%;
 }
 .contact__input{
-    width: 101.6%;
+    width: 90%;
     display: flex;
-    justify-content: center;
     margin-bottom: 40px;
-    @include breakpoint ($tablet-bp) {
+    @include breakpoint ($medium-bp) {
       flex-direction: column;
       align-items: center;
     }
@@ -50,16 +44,16 @@
     padding: 15px 16% 15px 15px;
     color: $white;
     text-align: left;
+    font-family: 'Gotham-Book';
         &::placeholder{
             color: inherit;
             font-size: 15px;
             opacity: 65%;
-            font-family: 'Nanum Gothic', sans-serif;
-
+            font-family: inherit;
         }
         &:not(:last-child){
             margin-right: 40px;
-            @include breakpoint ($tablet-bp) {
+            @include breakpoint ($medium-bp) {
                 margin-right: 0;
                 margin-bottom: 25px;
             }
