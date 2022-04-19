@@ -1,11 +1,14 @@
- @font-face {
-    font-family: 'GothamBold';
-    src: url('../fonts/GothamBold.svg#GothamBold') format('svg'),
-         url('../fonts/GothamBold.ttf') format('truetype'),
-         url('../fonts/GothamBold.woff') format('woff');
+@font-face {
+    font-family: 'GothamgBold';
+    src: url('../fonts/Gotham-Bold.eot');
+    src: url('../fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gotham-Bold.svg#Gotham-Bold') format('svg'),
+         url('../fonts/Gotham-Bold.ttf') format('truetype'),
+         url('../fonts/Gotham-Bold.woff') format('woff'),
+         url('../fonts/Gotham-Bold.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-  }
+  }  
   @font-face {
     font-family: 'GothamMedium';
     src: url('../fonts/GothamMedium.svg#GothamMedium') format('svg'),
